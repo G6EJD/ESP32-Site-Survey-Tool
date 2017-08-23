@@ -1,4 +1,4 @@
-An ESP32 and ESp8266 Site-Survey-Tool
+An ESP32 or ESP8266 Site-Survey-Tool, code is provided for both.
 
 Using an ESP32 or ESP8266 in Station Mode enables received Wi-Fi signals to be displayed with
 their SSID and Received Signal Strength Indicator on an OLED display.
