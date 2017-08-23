@@ -35,9 +35,10 @@ void loop(){
     } else
     {
       display.clear();
-      for (int i = 0; i < available_networks; i = i + 1) {
-        display.drawString(0,i*9,WiFi.SSID(i)+" ");       // Display SSID name
-        display.drawString(110,i*9,String(WiFi.RSSI(i))); // Display RSSI for that network
+      display.drawString(0,0,"SSID");display.drawString(102,0,"RSSI");display.drawLine(0,11,127,11);
+      for (int i = 1; i < available_networks; i = i + 1) {
+        display.drawString(0,i*9+1,WiFi.SSID(i)+" ");       // Display SSID name
+        display.drawString(110,i*9+1,String(WiFi.RSSI(i))); // Display RSSI for that network
         display.display();
       }
     }
