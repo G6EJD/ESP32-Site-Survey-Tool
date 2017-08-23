@@ -29,7 +29,7 @@ void setup(){
 }
 
 void loop(){
-    byte available_networks = WiFi.scanNetworks(); // COun the number of networks being received
+    byte available_networks = WiFi.scanNetworks(); // Count the number of networks being received
     if (available_networks == 0) {
         Serial.println("no networks found");
     } else
