@@ -1,5 +1,5 @@
 /* 
- * An ESP32 and 1.3" OLED WiFi Signal Strength Site Survey Tool/Utility, As you move around you can determine signal strength of a WiFi Router or Extender, which is useful
+ * An ESP32 or ESP8266 and 1.3" OLED WiFi Signal Strength Site Survey Tool/Utility, As you move around you can determine signal strength of a WiFi Router or Extender, which is useful
  * for determining where poor Wi-Fi reception is going to be or is being encountered.
  * 
  * The 'MIT License (MIT) Copyright (c) 2017 by David Bird'. Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
