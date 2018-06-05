@@ -30,6 +30,8 @@ SH1106 display(0x3c, sda, scl); // OLED display object definition (address, SDA,
 void setup(){
     Serial.begin(115200);               // For serial diagnostic prints
     WiFi.mode(WIFI_STA);                // Put ESP32 into Station Mode
+    WiFi.disconnect();
+    delay(100);
     Wire.begin(sda,scl); // (sda,scl)       // Start the Wire service for the OLED display using pin=4 for SCL and Pin-5 for SDA
     display.init();                     // Initialise the display  
     display.flipScreenVertically();     // In my case flip the screen around by 180°
